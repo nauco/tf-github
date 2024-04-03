@@ -15,7 +15,7 @@ provider "github" {
 
 
 resource "github_repository" "example" {
-  name        = "example"
+  name        = "spacelift-example"
   description = "My awesome codebase"
 
   visibility = "public"
